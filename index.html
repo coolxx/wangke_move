@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/index.css" media="screen and (max-device-width:720px)">
+	<link rel="stylesheet" href="css/index_max.css" media="screen and (min-device-width:720px)">
+	<script>
+		(function (win,doc){
+			function change(){
+				doc.documentElement.style.fontSize=20*doc.documentElement.clientWidth/320+'px';
+			}
+			change();
+			win.addEventListener('resize',change,false);
+		})(window,document);
+	</script>
+</head>
+<body>
+	<!-- banner -->
+	<div class="banner">
+		<img src="images/ban1.jpg" alt="">
+		<img src="images/ban2.jpg" alt="">
+		<img src="images/ban3.jpg" alt="">
+		<img src="images/ban4.jpg" alt="">
+	</div>
+	<!-- end banner -->
+	<!-- main1 -->
+	<div class="main1">
+		<form action="">
+			<h2>中公考研网课</h2>
+			<div class="user_name">
+				<span>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名</span>
+				<input type="text"/>
+			</div>
+			<div class="course_type">
+				<span>课程类型</span>
+				<div class="select">
+					<select name="" id="">
+						<option>经济类联考基础班</option>
+						<option>管理类联考基础班</option>
+						<option>政治+英语+数学基础班</option>
+					</select>
+				</div>
+			</div>
+			<div class="phone_num">
+				<span>手机号码</span>
+				<input type="text" />
+			</div>
+			<div class="capt">
+				<span>验&nbsp;&nbsp;证&nbsp;码</span>
+				<input type="text" />
+				<a href="">获取验证码</a>
+			</div>
+			<div class="submit">
+				<input type="submit" value="" />
+			</div>
+		</form>
+	</div>
+	<!-- end main1 -->
+	<!-- main2 -->
+	<div class="main2">
+		<h2>中公考研网课使用说明</h2>
+		<p>
+			本网课的授课内容为对应科目的命题动向和复<br>习策略讲授，各个科目的部分重难点讲解。共<br>分成三类，每个手机号码只能领取其中的一类<br>课程。<br>
+		</p>
+		<p>
+			<span>网课申请时限：</span><br>
+学员在提交网课需求申请后由课程管理员手动<br>为您开通网课账号，大概需要3个工作日，请<br>您耐心等待，我们会在网课开通后及时通知您<br>（短信或电话）<br>
+		</p>
+		<p>
+			<span>网课使用指导：</span><br>
+登入中公考研网校服务中心<br>（e.kaoyan365.cn）-我的课程；即可开始网<br>课学习，内含讲义电子版，可下载后使用。
+		</p>
+	</div>
+	<!-- end main2 -->
+</body>
+</html>

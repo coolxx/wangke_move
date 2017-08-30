@@ -1,0 +1,151 @@
+*{margin: 0;padding: 0;font-family: "微软雅黑";}
+html{font-size: 20px;background: #57b55d;}
+li{ list-style:none; }
+a{ text-decoration:none; }
+img{ vertical-align:top; }
+input{outline: none;}
+.banner{
+	width: 16.0rem;
+	overflow: hidden;
+}
+.banner img{
+	width: 16.0rem;
+	display: block;
+}
+.main1{
+	width: 16.0rem;
+	overflow: hidden;
+}
+.main1 form{
+	overflow: hidden;
+	width: 100%;
+}
+.main1 form h2{
+	font-size: 0.95rem;
+	color: #fff;
+	text-align: center;
+}
+.main1 form > div{
+	margin-top: 0.45rem;
+	height: 1.4rem;
+	overflow: hidden;
+	padding-left: 1.875rem;
+}
+.main1 form > div span{
+	display: inline-block;
+	font-size: 0.6rem;
+	color: #fff;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	float: left;
+}
+.main1 form > div input{
+	float: left;
+	width: 9.075rem;
+	height: 1.4rem;
+	background: url(../images/m1.png) no-repeat center;
+	background-size: 9.7rem 1.375rem;
+	border: none;
+	padding-left: 0.625rem;
+	margin-left: 0.375rem;
+	font-size: 0.6rem;
+	color: #333;
+}
+.main1 form > div input{
+	margin-left: 0.3rem;
+}
+.main1 form > div .select{
+	width: 9.7rem;
+	height: 1.4rem;
+	background: url(../images/m2.png) no-repeat center;
+	background-size: 9.7rem 1.4rem;
+	float: left;
+	overflow: hidden;
+	margin-left: 0.325rem;
+}
+.main1 form > div .select select{
+	width: 9.7rem;
+	height: 1.4rem;
+	display: block;
+	border: none;
+	background: none;
+	outline: none;
+	color: #d4d4d4;
+	font-size: 0.6rem;
+	padding-left: 0.625rem;
+	font-weight: bold;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+}
+.main1 form > div .select select option{
+	font-size: 0.6rem;
+	color: #333;
+}
+.capt input{
+	margin-left: 0.375rem!important;
+}
+.main1 form .capt input{
+	width: 4.9rem;
+	height: 1.4rem;
+	background: url(../images/m4.png) no-repeat left center;
+	background-size: 5.525rem 1.325rem;
+}
+.main1 form .capt a{
+	display: block;
+	float: left;
+	margin-left: 0.35rem;
+	width: 3.85rem;
+	height: 1.4rem;
+	font-size: 0.5rem;
+	line-height: 1.45rem;
+	color: #480817;
+	text-align: center;
+	background: #fcdc59;
+	border-radius: 0.2rem;
+}
+.main1 form .submit{
+	height: 79px;
+	margin-top: 30px;
+}
+.main1 form .submit input{
+	width: 12.1rem;
+	height: 1.975rem;
+	background: url(../images/m3.png) no-repeat center;
+	background-size: 12.1rem 1.975rem;
+	margin: 0
+}
+.main2{
+	width: 16.0rem;
+	height: 23.725rem;
+	overflow: hidden;
+	margin-top: 0.6rem;
+	background: url(../images/m5.png) no-repeat center;
+	background-size: 16.0rem 23.725rem;
+	margin-bottom: 0.875rem;
+}
+.main2 h2{
+	font-size: 0.75rem;
+	text-align: center;
+	height: 0.75rem;
+	margin-top: 4.25rem;
+	color: #692b01;
+	line-height: 0.75rem;
+}
+.main2 p{
+	font-size: 0.625rem;
+	line-height: 1.175rem;
+	margin-top: 0.075rem;
+	color: #480817;
+	padding-left: 1.8rem;
+	margin-top: 1.05rem;
+}
+.main2 p span{
+	color: #f85951
+}
+.main2 p:nth-child(3){
+	margin-top: 0.45rem;
+}
+.main2 p:nth-child(4){
+	margin-top: 0.45rem;
+}
